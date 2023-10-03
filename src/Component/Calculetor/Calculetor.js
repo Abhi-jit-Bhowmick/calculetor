@@ -21,6 +21,7 @@ function Calculetor() {
     function result() {
         let result;
         try {
+            // eslint-disable-next-line no-eval
             result = eval(input)
         }
         catch (error) {
